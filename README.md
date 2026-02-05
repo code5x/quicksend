@@ -1,11 +1,11 @@
-## QuickSend - Fast Local File Transfer Tool
+## 🚀 QuickSend - Fast Local File Transfer Tool
 
 QuickSend is a command-line based file transfer application. It is designed for sharing files on a local network without internet. The program works using a sender and a receiver model. One device runs the receiver, and the other sends data to it.
 It supports files, folders, and text messages. It is written fully in C and uses standard system libraries. The program follows an FTP-like design and is built using TCP socket programming. The focus of this project is speed, simplicity, and portability.
 
 ---
 
-## Features 
+## ✨ Features 
 
 - Send a single file from sender to receiver
 - Send multiple files in one session
@@ -18,12 +18,12 @@ It supports files, folders, and text messages. It is written fully in C and uses
 - Safe file overwrite handling (auto rename)
 - Transfer history logging for both sender and receiver
 - Works on:
-- Linux
-- Termux (Android)
+	- Linux
+	- Termux (Android)
 
 ---
 
-## Requirements 
+## 📋 Requirements 
 
 Required tools and libraries:
 - gcc / clang (C compiler)
@@ -42,7 +42,7 @@ pkg install clang make zip
 
 ---
 
-## Build / Install 
+## 🛠️ Build / Install 
 
 Clone or download the repository:
 ```sh
@@ -66,7 +66,7 @@ make install
 
 ---
 
-## Usage
+## 📘 Usage
 
 ### Step 1: Start Receiver
 
@@ -144,14 +144,14 @@ Examples:
 
 ---
 
-## Images (Screenshots)
+## 🖼️ Images (Screenshots)
 
 ![Demo Screenshot 1](https://github.com/code5x/quicksend/blob/main/images/screenshot_001.jpg)
 ![Demo Screenshot 2](https://github.com/code5x/quicksend/blob/main/images/screenshot_002.jpg)
 
 ---
 
-## Notes
+## 📝 Notes
 
 - Sender and receiver must be connected to the same local wifi network
 - Internet connection is not needed
