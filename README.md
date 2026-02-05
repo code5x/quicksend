@@ -5,6 +5,7 @@ It supports files, folders, and text messages. It is written fully in C and uses
 
 ---
 
+
 ## ✨ Features 
 
 - Send a single file from sender to receiver
@@ -22,6 +23,7 @@ It supports files, folders, and text messages. It is written fully in C and uses
 	- Termux (Android)
 
 ---
+
 
 ## 📋 Requirements 
 
@@ -42,11 +44,12 @@ pkg install clang make zip
 
 ---
 
+
 ## 🛠️ Build / Install 
 
 Clone or download the repository:
 ```sh
-git clone https://github.com/code5x/QuickSend.git
+git clone https://github.com/code5x/quicksend.git
 ```
 
 Move into the project directory:
@@ -66,6 +69,7 @@ make install
 
 ---
 
+
 ## 📘 Usage
 
 ### Step 1: Start Receiver
@@ -82,39 +86,39 @@ The receiver will:
 
 On the sender device:
 
-Send a single file:
+1. Send a single file:
 ```sh
 send -f /path/to/file
 ```
 
-Send multiple files:
+2. Send multiple files:
 ```sh
 send -f file1 file2 file3
 ```
 
-Send a folder as ZIP, with auto detect receiver IP:
+3. Send a folder as ZIP, with auto detect receiver IP:
 ```sh
 send -i auto -z /path/to/folder
 ```
 
-Send files from a folder using filter:
+4. Send files from a folder using filter:
 ```sh
 send -d "/path/to/folder/*.txt"
 ```
 This sends only .txt files from the folder.
 
-Send a text message:
+5. Send a text message:
 ```sh
 send -m "Hello from sender"
 ```
 
-Interactive menu mode:
+6. Interactive menu mode:
 ```sh
 send
 ```
 This mode allows you to choose actions from a menu.
 
-Show help message:
+7. Show help message:
 ```sh
 send -h
 ```
@@ -144,12 +148,14 @@ Examples:
 
 ---
 
+
 ## 🖼️ Images (Screenshots)
 
 ![Demo Screenshot 1](https://github.com/code5x/quicksend/blob/main/images/screenshot_001.jpg)
 ![Demo Screenshot 2](https://github.com/code5x/quicksend/blob/main/images/screenshot_002.jpg)
 
 ---
+
 
 ## 📝 Notes
 
